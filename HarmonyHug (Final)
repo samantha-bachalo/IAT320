@@ -1,0 +1,160 @@
+input.onGesture(Gesture.FaceUp, function () {
+    Sound_Variable = 1
+})
+input.onGesture(Gesture.FaceDown, function () {
+    Sound_Variable = 0
+})
+function auldLangSyne () {
+    music.playTone(131, music.beat(BeatFraction.Whole))
+    if (Sound_Variable != 1) return
+    music.playTone(175, music.beat(BeatFraction.Double))
+    if (Sound_Variable != 1) return
+    music.playTone(175, music.beat(BeatFraction.Whole))
+    if (Sound_Variable != 1) return
+    music.playTone(175, music.beat(BeatFraction.Double))
+    if (Sound_Variable != 1) return
+    music.playTone(220, music.beat(BeatFraction.Whole))
+    if (Sound_Variable != 1) return
+    music.playTone(196, music.beat(BeatFraction.Double))
+    if (Sound_Variable != 1) return
+    music.playTone(175, music.beat(BeatFraction.Whole))
+    if (Sound_Variable != 1) return
+    music.playTone(196, music.beat(BeatFraction.Double))
+    if (Sound_Variable != 1) return
+    music.playTone(220, music.beat(BeatFraction.Half))
+    if (Sound_Variable != 1) return
+    music.playTone(196, music.beat(BeatFraction.Half))
+    if (Sound_Variable != 1) return
+    music.playTone(175, music.beat(BeatFraction.Double))
+    if (Sound_Variable != 1) return
+    music.playTone(175, music.beat(BeatFraction.Whole))
+    if (Sound_Variable != 1) return
+    music.playTone(220, music.beat(BeatFraction.Double))
+    if (Sound_Variable != 1) return
+    music.playTone(262, music.beat(BeatFraction.Whole))
+    if (Sound_Variable != 1) return
+    music.playTone(294, music.beat(BeatFraction.Breve))
+
+    if (Sound_Variable != 1) return
+    pins.A3.digitalWrite(false)
+    music.rest(music.beat(BeatFraction.Whole))
+    pins.A3.digitalWrite(true)
+    if (Sound_Variable != 1) return
+
+    music.playTone(294, music.beat(BeatFraction.Whole))
+    if (Sound_Variable != 1) return
+    music.playTone(262, music.beat(BeatFraction.Double))
+    if (Sound_Variable != 1) return
+    music.playTone(220, music.beat(BeatFraction.Whole))
+    if (Sound_Variable != 1) return
+    music.playTone(220, music.beat(BeatFraction.Double))
+    if (Sound_Variable != 1) return
+    music.playTone(175, music.beat(BeatFraction.Whole))
+    if (Sound_Variable != 1) return
+    music.playTone(196, music.beat(BeatFraction.Double))
+    if (Sound_Variable != 1) return
+    music.playTone(175, music.beat(BeatFraction.Whole))
+    if (Sound_Variable != 1) return
+    music.playTone(196, music.beat(BeatFraction.Double))
+    if (Sound_Variable != 1) return
+    music.playTone(220, music.beat(BeatFraction.Half))
+    if (Sound_Variable != 1) return
+    music.playTone(196, music.beat(BeatFraction.Half))
+    if (Sound_Variable != 1) return
+    music.playTone(175, music.beat(BeatFraction.Double))
+    if (Sound_Variable != 1) return
+    music.playTone(147, music.beat(BeatFraction.Whole))
+    if (Sound_Variable != 1) return
+    music.playTone(147, music.beat(BeatFraction.Double))
+    if (Sound_Variable != 1) return
+    music.playTone(131, music.beat(BeatFraction.Whole))
+    if (Sound_Variable != 1) return
+    music.playTone(175, music.beat(BeatFraction.Breve))
+
+    if (Sound_Variable != 1) return
+    pins.A3.digitalWrite(false)
+    music.rest(music.beat(BeatFraction.Whole))
+    pins.A3.digitalWrite(true)
+    if (Sound_Variable != 1) return
+
+    music.playTone(294, music.beat(BeatFraction.Whole))
+    if (Sound_Variable != 1) return
+    music.playTone(262, music.beat(BeatFraction.Double))
+    if (Sound_Variable != 1) return
+    music.playTone(220, music.beat(BeatFraction.Whole))
+    if (Sound_Variable != 1) return
+    music.playTone(220, music.beat(BeatFraction.Double))
+    if (Sound_Variable != 1) return
+    music.playTone(175, music.beat(BeatFraction.Whole))
+    if (Sound_Variable != 1) return
+    music.playTone(196, music.beat(BeatFraction.Double))
+    if (Sound_Variable != 1) return
+    music.playTone(175, music.beat(BeatFraction.Whole))
+    if (Sound_Variable != 1) return
+    music.playTone(196, music.beat(BeatFraction.Double))
+    if (Sound_Variable != 1) return
+    music.playTone(294, music.beat(BeatFraction.Whole))
+    if (Sound_Variable != 1) return
+    music.playTone(262, music.beat(BeatFraction.Double))
+    if (Sound_Variable != 1) return
+    music.playTone(220, music.beat(BeatFraction.Whole))
+    if (Sound_Variable != 1) return
+    music.playTone(220, music.beat(BeatFraction.Double))
+    if (Sound_Variable != 1) return
+    music.playTone(262, music.beat(BeatFraction.Whole))
+    if (Sound_Variable != 1) return
+    music.playTone(294, music.beat(BeatFraction.Breve))
+
+    if (Sound_Variable != 1) return
+    pins.A3.digitalWrite(false)
+    music.rest(music.beat(BeatFraction.Whole))
+    pins.A3.digitalWrite(true)
+    if (Sound_Variable != 1) return
+
+    music.playTone(294, music.beat(BeatFraction.Whole))
+    if (Sound_Variable != 1) return
+    music.playTone(262, music.beat(BeatFraction.Double))
+    if (Sound_Variable != 1) return
+    music.playTone(220, music.beat(BeatFraction.Whole))
+    if (Sound_Variable != 1) return
+    music.playTone(220, music.beat(BeatFraction.Double))
+    if (Sound_Variable != 1) return
+    music.playTone(175, music.beat(BeatFraction.Whole))
+    if (Sound_Variable != 1) return
+    music.playTone(196, music.beat(BeatFraction.Double))
+    if (Sound_Variable != 1) return
+    music.playTone(175, music.beat(BeatFraction.Whole))
+    if (Sound_Variable != 1) return
+    music.playTone(196, music.beat(BeatFraction.Double))
+    if (Sound_Variable != 1) return
+    music.playTone(220, music.beat(BeatFraction.Half))
+    if (Sound_Variable != 1) return
+    music.playTone(196, music.beat(BeatFraction.Half))
+    if (Sound_Variable != 1) return
+    music.playTone(349, music.beat(BeatFraction.Double))
+    if (Sound_Variable != 1) return
+    music.playTone(294, music.beat(BeatFraction.Whole))
+    if (Sound_Variable != 1) return
+    music.playTone(294, music.beat(BeatFraction.Double))
+    if (Sound_Variable != 1) return
+    music.playTone(262, music.beat(BeatFraction.Whole))
+    if (Sound_Variable != 1) return
+    music.playTone(349, music.beat(BeatFraction.Breve))
+    if (Sound_Variable != 1) return
+    pins.A3.digitalWrite(false)
+    music.rest(music.beat(BeatFraction.Whole))
+}
+
+let Sound_Variable = 0
+music.setVolume(255)
+pins.A3.digitalWrite(true)
+music.playMelody("C D E D C G C5 - ", 175)
+pins.A3.digitalWrite(false)
+Sound_Variable = 0
+forever(function () {
+    if (Sound_Variable >= 1) {
+        music.setTempo(150)
+        pins.A3.digitalWrite(true)
+        auldLangSyne()
+    }
+})
