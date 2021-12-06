@@ -5,6 +5,7 @@ input.onGesture(Gesture.FaceDown, function () {
     Sound_Variable = 0
 })
 function auldLangSyne () {
+    pins.A3.digitalWrite(true)
     music.playTone(131, music.beat(BeatFraction.Whole))
     if (Sound_Variable != 1) return
     music.playTone(175, music.beat(BeatFraction.Double))
@@ -154,7 +155,6 @@ Sound_Variable = 0
 forever(function () {
     if (Sound_Variable >= 1) {
         music.setTempo(150)
-        pins.A3.digitalWrite(true)
         auldLangSyne()
     }
 })
